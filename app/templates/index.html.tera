@@ -1,36 +1,71 @@
 <!doctype html>
 <html>
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="css/style.css"/>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Grisked</title>
-  </head>
-  <body>
-    <header>
-      <div class="container-fluid text-center py-5 px-3">
-        <a href="/">
-          <img src="/images/logo.svg" alt="Grisked" width="96" height="96">
-        </a>
-        <br>
-        <a class="btn btn-outline-light m-2 mt-4" href="/" role="button">Overview</a>
-        <a class="btn btn-outline-primary m-2 mt-4" href="/release" role="button">Releases notes</a>
-        <a class="btn btn-outline-primary m-2 mt-4" href="/help" role="button">Help</a>
-      </div>
-    </header>
-    <div class="container-fluid text-center pb-5 px-3">
-      <h1 class="f00-light text-white">Grisked</h1>
-      <p class="col-md-8 mx-auto mb-4 f3-light">Concentrez vous sur ce qui compte au lieu de chiffres qui n'ont aucun sens. Quand bien même vous n'aimez pas compter votre argent, Grisked simplifie la manière de gérer vos comptes et même plus.</p>
-      <a class="btn btn-primary m-2 mt-4 btn-lg" href="/" role="button">Download for Windows</a>
-      <a class="btn btn-primary m-2 mt-4 btn-lg" href="/" role="button">Download for macOs</a>
-      <a class="btn btn-primary m-2 mt-4 btn-lg" href="/" role="button">Download for Linux</a>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Grisked</title>
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid text-center py-5 px-3">
+      <a href="/">
+        <img src="/images/logo.svg" alt="Grisked" width="96" height="96">
+      </a>
+      <br>
+      <a class="btn btn-outline-light m-2 mt-4" href="/" role="button">Overview</a>
+      <a class="btn btn-outline-primary m-2 mt-4" href="/release" role="button">Releases notes</a>
+      <a class="btn btn-outline-primary m-2 mt-4" href="/help" role="button">Help</a>
     </div>
-  </body>
+  </header>
+  <div class="container-fluid text-center pb-5 px-3">
+    <h1 class="f00-light text-white">Grisked</h1>
+    <p class="col-md-8 mx-auto mb-4 f3-light">Concentrez vous sur ce qui compte au lieu de chiffres qui n'ont aucun
+      sens. Quand bien même vous n'aimez pas compter votre argent, Grisked simplifie la manière de gérer vos comptes et
+      même plus.</p>
+    <a class="btn btn-primary m-2 mt-4 btn-lg" href="/" role="button">Download for Windows</a>
+    <a class="btn btn-primary m-2 mt-4 btn-lg" href="/" role="button">Download for macOs</a>
+    <a class="btn btn-primary m-2 mt-4 btn-lg" href="/" role="button">Download for Linux</a>
+  </div>
+  <div class="container-fluid text-center pb-5 px-3">
+    <div class="row align-item-center row-vitrine">
+      <div class="col-3"></div>
+      <div class="col-3" style="text-align: right !important;">
+        <img src="/images/capture.PNG" alt="Dashboard" width="75%">
+      </div>
+      <div class="col-3">
+        <h3>Un dashboard intuitif</h3>
+        <span>Accedez rapidement à vos informations à l'aide d'un dashboard simple et intuitif afin d'acceder à
+          l'essentiel!</span>
+      </div>
+      <div class="col-3"></div>
+    </div>
+    <div class="row align-item-center">
+      <div class="col-3"></div>
+      <div class="col-3" style="text-align: right !important;">
+        <img src="/images/capture2.PNG" alt="Dashboard" width="75%">
+      </div>
+      <div class="col-3">
+        <h3>Paramétrez et modifiez rapidement votre compte</h3>
+        <span>A l'aide d'une interface graphique soignée et ergonomique, ajoutez et personnalisez rapidement vos comptes
+          bancaires sur la platforme, ajouter aussi rapidement des transactions. En cliquant sur l'un des comptes,
+          entrez plus en détails sur celui ci afin de le modifier en profondeur</span>
+      </div>
+      <div class="col-3"></div>
+    </div>
+  </div>
+</body>
+
 </html>
