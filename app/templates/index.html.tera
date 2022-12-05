@@ -43,7 +43,7 @@
     <div class="row align-item-center row-vitrine">
       <div class="col-3"></div>
       <div class="col-3" style="text-align: right !important;">
-        <img src="/images/capture.PNG" alt="Dashboard" width="75%">
+        <img src="/images/dashboard.png" alt="Dashboard" width="75%">
       </div>
       <div class="col-3">
         <h3>Un dashboard intuitif</h3>
@@ -55,7 +55,7 @@
     <div class="row align-item-center">
       <div class="col-3"></div>
       <div class="col-3" style="text-align: right !important;">
-        <img src="/images/capture2.PNG" alt="Dashboard" width="75%">
+        <img src="/images/accounts.png" alt="Dashboard" width="75%">
       </div>
       <div class="col-3">
         <h3>Paramétrez et modifiez rapidement votre compte</h3>
